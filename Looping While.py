@@ -7,18 +7,18 @@ while Candy_eaten < Candy_total:
     print(f'{Candy_eaten} Candy eaten')
 print(f'Total Candy Eaten ="{Candy_eaten}"')
 
-Book_Total = 10
-Book_Read_and_Mastered = 0
-Book_Count_Read = 0
-print(f'Book Total = {Book_Total}')
-print(f'Book Read and Mastered = {Book_Read_and_Mastered}')
-while Book_Total>Book_Read_and_Mastered:
-    if Book_Read_and_Mastered == 7:
-        while Book_Count_Read<20:
-            for Book_Count_Read in range (1,21):
-                print(f'Book {Book_Read_and_Mastered+1} was read for {Book_Count_Read}x')
-            Book_Read_and_Mastered = Book_Read_and_Mastered+1
+Book = 10
+Book_Mastered = 0
+Read_Count = 0
+print(f'Book Total = {Book}')
+print(f'Book Read and Mastered = {Book_Mastered}')
+while Book>Book_Mastered:
+    if Book_Mastered == 7:
+        while Read_Count<20:
+            for Read_Count in range (1, 21):
+                print(f'Book {Book_Mastered + 1} was read for {Read_Count}x')
+            Book_Mastered = Book_Mastered + 1
     else:
-        Book_Read_and_Mastered = Book_Read_and_Mastered + 1
-        print(f'Book {Book_Read_and_Mastered} is Mastered')
+        Book_Mastered = Book_Mastered + 1
+        print(f'Book {Book_Mastered} is Mastered')
 
