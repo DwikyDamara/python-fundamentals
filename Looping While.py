@@ -13,11 +13,11 @@ Book_Count_Read = 0
 print(f'Book Total = {Book_Total}')
 print(f'Book Read and Mastered = {Book_Read_and_Mastered}')
 while Book_Total>Book_Read_and_Mastered:
-    if Book_Read_and_Mastered == 9:
+    if Book_Read_and_Mastered == 7:
         while Book_Count_Read<20:
             for Book_Count_Read in range (1,21):
-                print(f'Book {Book_Read_and_Mastered} was read for {Book_Count_Read}x')
-
+                print(f'Book {Book_Read_and_Mastered+1} was read for {Book_Count_Read}x')
+            Book_Read_and_Mastered = Book_Read_and_Mastered+1
     else:
         Book_Read_and_Mastered = Book_Read_and_Mastered + 1
         print(f'Book {Book_Read_and_Mastered} is Mastered')
