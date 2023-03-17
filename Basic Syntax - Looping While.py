@@ -1,3 +1,4 @@
+# Perulangan
 Candy_total = 10
 Candy_eaten = 0
 print(f'Candy Total = {Candy_total}')
